@@ -1,5 +1,5 @@
 import email
-from socket import fromshare
+#from socket import fromshare heroku não usa este modulo então removi no deploy
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
